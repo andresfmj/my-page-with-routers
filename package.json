@@ -4,7 +4,8 @@
   "description": "aprendiendo a usar routers con react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./node_modules/.bin/webpack -d --progress",
+    "prod": "./node_modules/.bin/webpack -p --progress"
   },
   "author": "fernanitychamp",
   "license": "MIT",
